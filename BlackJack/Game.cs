@@ -8,7 +8,6 @@ namespace BlackJack
 {
     public class Game
     {
-        public string[] Cards { get; set; }
         public string[] Suits { get; set; }
         public Dictionary<string, int> CardDeck { get; set; }
 
@@ -36,16 +35,16 @@ namespace BlackJack
         }
 
 
-        public void DrawCard()
+        public string DrawCard()
         {
             var rnd = new Random();
 
-            int SuitIndex1 = rnd.Next(Suits.Length);
-            int SuitIndex2 = rnd.Next(Suits.Length);
-            
-            string Card = CardDeck.Keys.ElementAt(rnd.Next(CardDeck.Count - 1));
-            Console.WriteLine(Card);
-            Console.ReadLine();
+            int suitIndex1 = rnd.Next(Suits.Length);
+            int suitIndex2 = rnd.Next(Suits.Length);
+            string card1 = CardDeck.Keys.ElementAt(rnd.Next(CardDeck.Count - 1));
+            string card2 = CardDeck.Keys.ElementAt(rnd.Next(CardDeck.Count - 1));
+
+            return ("The Draw is " + card1 + " of " + Suits[suitIndex1] + " and " + card2 + " of " + Suits[suitIndex2]);
 
         }
     }
