@@ -1,0 +1,12 @@
+c:\users\dev-ashley\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\users\dev-ashley\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\users\dev-ashley\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\users\dev-ashley\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\BlackJackVS.csprojResolveAssemblyReference.cache
+c:\users\dev-ashley\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\users\dev-ashley\documents\visual studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Dev-Ashley\Dev\BlackJackC#\BlackJack\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Dev-Ashley\Dev\BlackJackC#\BlackJack\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Dev-Ashley\Dev\BlackJackC#\BlackJack\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Dev-Ashley\Dev\BlackJackC#\BlackJack\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Dev-Ashley\Dev\BlackJackC#\BlackJack\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Dev-Ashley\Dev\BlackJackC#\BlackJack\ConsoleApplication1\obj\Debug\BlackJackVS.csprojResolveAssemblyReference.cache
