@@ -11,8 +11,17 @@ namespace BlackJackVS
         static void Main(string[] args)
         {
             Game game = new Game();
-            Console.WriteLine(game.DrawCard());
+            Console.WriteLine("Welcome to BlackJack, time to gamble! Hit enter and we will get underway with the deal");
             Console.ReadLine();
+            Console.WriteLine(game.DrawInitialPlayerCards());
+            Console.WriteLine("Hit enter for the Casino's draw");
+            Console.ReadLine();
+            Console.WriteLine(game.DrawInitialHouseCards());
+            Console.WriteLine("");
+            Console.WriteLine("Would you like to be Hit, enter yes or no");
+            game.Hit(Console.ReadLine());
+            Console.ReadLine();
+
         }
     }
 }
