@@ -42,10 +42,10 @@ namespace BlackJack
 
             int SuitIndex1 = rnd.Next(Suits.Length);
             int SuitIndex2 = rnd.Next(Suits.Length);
-
-
-            string Card = CardDeck.Keys.ElementAt(CardDeck.Count - 1);
-
+            
+            string Card = CardDeck.Keys.ElementAt(rnd.Next(CardDeck.Count - 1));
+            Console.WriteLine(Card);
+            Console.ReadLine();
 
         }
     }
