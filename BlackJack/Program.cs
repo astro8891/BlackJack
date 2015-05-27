@@ -12,7 +12,7 @@ namespace BlackJack
         static void Main(string[] args)
         {
             Game game = new Game();
-            Console.WriteLine(game.DrawCard());
+            Console.WriteLine();
             Console.ReadLine();
         }
     }
