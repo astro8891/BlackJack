@@ -1,0 +1,9 @@
+C:\Users\Dev-Ashley\Dev\Pantry\Pantry\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\Dev-Ashley\Dev\Pantry\Pantry\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\Dev-Ashley\Dev\Pantry\Pantry\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\Dev-Ashley\Dev\Pantry\Pantry\BlackJack\BlackJack\obj\Debug\BlackJack.csprojResolveAssemblyReference.cache
+C:\Users\Dev-Ashley\Dev\Pantry\Pantry\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\Dev-Ashley\Dev\Pantry\Pantry\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\Dev-Ashley\Dev\BlackJackC#\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\Dev-Ashley\Dev\BlackJackC#\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\Dev-Ashley\Dev\BlackJackC#\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
