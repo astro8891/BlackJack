@@ -74,6 +74,32 @@ namespace BlackJackVS
 
         }
 
+
+        public void dealAdditionalUser()
+        {
+            Random rnd = new Random();
+            int suitIndex1 = rnd.Next(Suits.Length);
+            string card1 = CardDeck.Keys.ElementAt(rnd.Next(CardDeck.Count - 1));
+            Console.WriteLine("Your draw is" + Suits[suitIndex1] + " of " + card1);
+            Console.WriteLine("");
+            Console.WriteLine(Player.score = (Player.score + CardDeck[card1]));
+
+            checkPlayerWin(Player.score);
+        }
+
+
+        public void DealAdditionalCasino()
+        {
+            Random rnd = new Random();
+            int suitIndex1 = rnd.Next(Suits.Length);
+            string card1 = CardDeck.Keys.ElementAt(rnd.Next(CardDeck.Count - 1));
+            Console.WriteLine("Your draw is" + Suits[suitIndex1] + " of " + card1);
+            Console.WriteLine("");
+            Console.WriteLine(Casino.score = (Casino.score + CardDeck[card1]));
+
+        }
+
+
         public void Hit(string UserAnswer)
         {
             if (UserAnswer == "yes" || UserAnswer == "Yes" || UserAnswer == "YES")
@@ -87,22 +113,7 @@ namespace BlackJackVS
 
         }
 
-        public void dealAdditionalUser()
-        {
-            Random rnd = new Random();
-            int suitIndex1 = rnd.Next(Suits.Length);
-            string card1 = CardDeck.Keys.ElementAt(rnd.Next(CardDeck.Count - 1));
-            Console.WriteLine("Your draw is" + Suits[suitIndex1] + " of " + card1);
-            Console.WriteLine(Player.score = (Player.score + CardDeck[card1]));
-            
-            checkPlayerWin(Player.score);
-        }
-
-        public void DealAdditionalUser()
-        {
-            
-        }
-
+     
         
         public void checkPlayerWin(int playerScore)
         {
