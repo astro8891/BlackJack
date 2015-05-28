@@ -94,6 +94,39 @@ namespace BlackJackVS
             string card1 = CardDeck.Keys.ElementAt(rnd.Next(CardDeck.Count - 1));
             Console.WriteLine("Your draw is" + Suits[suitIndex1] + " of " + card1);
             Console.WriteLine(Player.score = (Player.score + CardDeck[card1]));
+            
+            checkPlayerWin(Player.score);
         }
+
+        public void DealAdditionalUser()
+        {
+            
+        }
+
+        
+        public void checkPlayerWin(int playerScore)
+        {
+            if (playerScore == 21)
+            {
+                Console.WriteLine("BlackJack! YOU WIN");
+            }
+
+            else if (playerScore > 21)
+            {
+                Console.WriteLine("Bust, You loose, Its going to be a long walk home from Vegas");
+            }
+
+            else
+            {
+                
+            }
+
+        }
+
+        public void CheckDealerWin()
+        {
+            
+        }
+
     }
 }
